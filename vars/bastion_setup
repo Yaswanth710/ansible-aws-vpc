@@ -1,3 +1,4 @@
 baston_ami: ami-051dfed8f67f095f5
 region: us-east-2
 MYIP: 136.185.232.89/32
+
