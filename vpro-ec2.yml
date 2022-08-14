@@ -18,6 +18,6 @@
       copy:
         content: "{{vprokey_out.key.private_key}}"
         dest: "./loginkey_vpro.pem
-        mode: 0600
-        when: vprokey_out.changed
+      mode: 0600
+      when: vprokey_out.changed
 
