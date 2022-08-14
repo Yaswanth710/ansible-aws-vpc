@@ -89,4 +89,4 @@
        map_public: yes
        resource_tags:
          Name: vprofile-privsub3
-   register: privsub3_out
+     register: privsub3_out
