@@ -1,0 +1,6 @@
+nginx_ami: ami-00978328f54e31526
+tomcat_ami: ami-00978328f54e31526
+memcache_ami: ami-00978328f54e31526
+rmq_ami: ami-00978328f54e31526
+mysql_ami: ami-00978328f54e31526
+region: "us-east-2"
