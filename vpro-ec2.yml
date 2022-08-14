@@ -8,6 +8,8 @@
       include_vars: vars/vpc-output_vars
     - name: Import vprofile setup Variable
       include_vars: vars/vprostacksetup
+
+
     - name: Create vprofile EC2 key
       ec2_key:
         name: vprofile
@@ -19,5 +21,5 @@
         content: "{{vprokey_out.key.private_key}}"
         dest: "./loginkey_vpro.pem
         mode: 0600
-      when: vprokey_out.changed
+     when: vprokey_out.changed
 
