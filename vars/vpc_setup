@@ -8,8 +8,8 @@ PubSub1Cidr: 172.20.1.0/24
 PubSub2Cidr: 172.20.2.0/24
 PubSub3Cidr: 172.20.3.0/24
 PrivSub1Cidr: 172.20.4.0/26
-PrivSub1Cidr: 172.20.4.0/26
-PrivSub1Cidr: 172.20.4.0/26
+PrivSub2Cidr: 172.20.4.0/26
+PrivSub3Cidr: 172.20.4.0/26
 
 # Region
 region: "us-east-2"
